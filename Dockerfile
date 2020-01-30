@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.11.3
 
 RUN apk --no-cache add ca-certificates curl wget \
     mtr netcat-openbsd net-tools tcpdump nmap iperf bind-tools \
